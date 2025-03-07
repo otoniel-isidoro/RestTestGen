@@ -19,7 +19,7 @@
   },
   "servers": [
     {
-      "url": "http://localhost:8081/v2"
+      "url": "https://petstore.swagger.io/v2"
     }
   ],
   "tags": [
