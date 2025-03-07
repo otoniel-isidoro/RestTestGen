@@ -1,0 +1,7 @@
+name: multibags
+specificationFileName: openapi.json
+authenticationCommands:
+  default: sh apis/multibags/scripts/auth.sh
+# the reset command below is not yet being called automatically it is planned for next release of restTestGen
+resetBeforeTesting: true
+resetCommand: "sh apis/multibags/scripts/reset.sh 10 500"
